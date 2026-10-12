@@ -1,0 +1,25 @@
+# Keep raw datasets out of GitHub
+data/*.xls
+data/*.xlsx
+data/*.csv
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Mac system files
+.DS_Store
+
+# Temporary Tableau files
+*.twb~
+*.tfl~
